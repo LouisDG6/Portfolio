@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://cutewallpaper.org/21/portfolio-background-image/portfolio-background-header-Jessica-Roots-Web-Design-.jpg");
+  ;
+border: 20px solid bisque;
+}
+
+h1 {
+  color: bisque;
+  font-size: 3em;
+}
+
+nav {
+  color: bisque;
+  background: rgb(35, 75, 71);
+  border: 10px solid black;
+}
+
+.home , .about , .projects{
+  color: bisque;
+  background: teal;
+  padding: 0 30px;;
+}
+
+.about :hover {
+  transition: 2s;
+  background: white;
+  cursor: pointer;
+}
+
+img {
+  border: 20px solid rgb(35, 75, 71);
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  border: 5px solid black;
+  background: rgb(35, 75, 71);
+  font-size: 180%;
+  color: bisque;
+  width: 40%;
+  padding: 50px;
+  
+}
+
+.selfie {
+  height: 20%;
+}

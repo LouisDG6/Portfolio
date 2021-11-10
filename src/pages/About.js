@@ -22,7 +22,9 @@ function About(props) {
     <div>
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
+      <div className="paragraph">
       <p>{about.bio}</p>
+      </div>
     </div>
   );
 
